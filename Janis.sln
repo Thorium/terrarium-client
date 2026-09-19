@@ -1,21 +1,19 @@
-Microsoft Visual Studio Solution File, Format Version 7.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Janis", "Janis\Janis.csproj", "{B0F35E92-536C-41F7-B368-EC43FAF239E6}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Janis", "Janis\Janis.csproj", "{B0F35E92-536C-41F7-B368-EC43FAF239E6}"
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		ConfigName.0 = Debug
-		ConfigName.1 = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0F35E92-536C-41F7-B368-EC43FAF239E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F35E92-536C-41F7-B368-EC43FAF239E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F35E92-536C-41F7-B368-EC43FAF239E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F35E92-536C-41F7-B368-EC43FAF239E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{B0F35E92-536C-41F7-B368-EC43FAF239E6}.Debug.ActiveCfg = Debug|.NET
-		{B0F35E92-536C-41F7-B368-EC43FAF239E6}.Debug.Build.0 = Debug|.NET
-		{B0F35E92-536C-41F7-B368-EC43FAF239E6}.Release.ActiveCfg = Release|.NET
-		{B0F35E92-536C-41F7-B368-EC43FAF239E6}.Release.Build.0 = Release|.NET
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

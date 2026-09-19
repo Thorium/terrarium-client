@@ -11,7 +11,14 @@
 //===============================================================================
 
 using System; 
-using System.Drawing; 
+using Terrarium.Sdk.Classes.Creature;
+using Terrarium.Sdk.Classes.Creature.Attributes;
+using Terrarium.Sdk.Classes.Creature.Events;
+using Terrarium.Sdk.Classes.Helpers;
+using Terrarium.Sdk.Classes.State;
+using Terrarium.Sdk.Enumerations;
+using Terrarium.Sdk.Classes.Engine;
+using Terrarium.Sdk.Interfaces;
 using System.Collections; 
 using System.IO;
 
@@ -22,7 +29,7 @@ namespace Tuomas_Hietanen.Terrarium.Janistelyt {
 
  #region Elukan m‰‰rittelyt  
    [CarnivoreAttribute(false)]
-   [AnimalSkin(AnimalSkinFamilyEnum.Inchworm)]
+   [AnimalSkin(AnimalSkinFamily.Inchworm)]
    [MarkingColor(KnownColor.BurlyWood)]
    // P‰‰dyin seuraaviin arvoihin pitk‰n testailun j‰lkeen:
    [MatureSize(25)]
@@ -35,6 +42,7 @@ namespace Tuomas_Hietanen.Terrarium.Janistelyt {
    [EyesightPoints(10)]
 
  #endregion
+   public class Janis2 : Animal {
 
    #region Luokkamuuttujat 
    
